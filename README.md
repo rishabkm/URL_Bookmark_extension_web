@@ -1,19 +1,21 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 📌 Leads Tracker (Chrome Extension)
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A lightweight browser extension designed to help users quickly log, track, and manage web leads. Save input text or capture your active browser tab's URL with a single click, with data persisting in `localStorage`.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could go further with one of our advanced courses 🚀
+## ✨ Features
+* **Manual Lead Entry:** Type custom URLs or text notes and save them instantly.
+* **Save Active Tab:** Grab the active Chrome tab's URL with one click.
+* **Persistent Storage:** Saves leads locally using the browser's `localStorage` API so data persists across sessions.
+* **Clear Leads:** Double-click to wipe saved leads and reset storage.
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 🛠️ Built With
+* **HTML5** - Structure and UI layout
+* **CSS3** - Styling and responsive layout
+* **JavaScript (ES6+)** - DOM manipulation and `localStorage` API
+* **Chrome Extension API** - Tab URL retrieval (`chrome.tabs.query`)
 
-Happy Coding!
+## 🚀 How to Install and Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/leads-tracker.git](https://github.com/YOUR_USERNAME/leads-tracker.git)
